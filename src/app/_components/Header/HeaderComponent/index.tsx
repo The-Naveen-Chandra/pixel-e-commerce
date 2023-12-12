@@ -46,7 +46,7 @@ const HeaderComponent = ({ header }: { header: Header }) => {
       <Gutter className={classes.wrap}>
         <Link href={'/'}>
           <Image
-            src={isDarkTheme ? '/logo-white.svg' : '/logo-black.svg'}
+            src={isDarkTheme ? '/logo-black.svg' : '/logo-black.svg'}
             alt="logo"
             width={110}
             height={50}
